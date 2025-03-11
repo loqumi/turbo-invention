@@ -26,6 +26,11 @@ cd turbo-invention
 ```bash
 npm install
 ```
+4. Создание .env файла с настройками API и ID для метрик.
+```
+API_URL=https://random-api-endpoint
+GA_TRACKING_ID=UA-XXXXX-Y
+```
 
 4. Запустите приложение:
 ```bash
