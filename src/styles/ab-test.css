@@ -1,0 +1,87 @@
+/* Общие стили для body */
+body.variant-a {
+    background-color: #f4f4f4;
+}
+
+body.variant-b {
+    background-color: #1a1a1a;
+}
+
+/* Стили для формы */
+#form-container.variant-a {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+#form-container.variant-b {
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+/* Стили для заголовка */
+.variant-a h1 {
+    color: #007bff;
+}
+
+.variant-b h1 {
+    color: #28a745;
+}
+
+/* Стили для полей ввода */
+.variant-a input,
+.variant-a textarea {
+    background-color: #ffffff;
+    color: #333333;
+    border-color: #ccc;
+}
+
+.variant-b input,
+.variant-b textarea {
+    background-color: #404040;
+    color: #ffffff;
+    border-color: #555;
+}
+
+/* Стили для кнопки */
+.variant-a button {
+    background-color: #007bff;
+}
+
+.variant-b button {
+    background-color: #28a745;
+}
+
+/* Стили для сообщений */
+.variant-a .success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.variant-b .success {
+    background-color: #28a745;
+    color: #ffffff;
+}
+
+.variant-a .error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.variant-b .error {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+/* Разное расположение полей */
+.variant-a .input-group {
+    margin-bottom: 16px;
+}
+
+.variant-b .input-group {
+    margin-bottom: 8px;
+}
+
+.variant-b .input-group label {
+    display: block;
+    margin-bottom: 8px;
+}
